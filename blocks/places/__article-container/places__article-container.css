@@ -1,0 +1,5 @@
+.places__article-container {
+  display: grid;
+  grid-template: 1fr 460px/ 460px 1fr;
+  gap: 48px 40px;
+}

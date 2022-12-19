@@ -1,3 +1,21 @@
 .photo-grid__item {
   width: calc((100vw - (48px * 2) - (16px * 3)) / 4);
 }
+
+@media screen and (max-width: 1024px) {
+  .photo-grid__item {
+    width: calc((100vw - (48px * 2) - (14px * 2)) / 3);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .photo-grid__item {
+    width: calc((100vw - (24px * 2) - (16px * 2)) / 2);
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .photo-grid__item {
+    width: calc(100vw - (16px * 2));
+  }
+}
