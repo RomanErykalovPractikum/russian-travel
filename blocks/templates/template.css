@@ -15,3 +15,19 @@
 
   }
 }
+
+
+
+
+<article class="places__article-container">
+  <h2 class="places__title"></h2>
+    <div class="places__website">
+      <p class="places__url-heading">URL</p>
+      <a href="" target="_blank" class="places__link"></a>
+    </div>
+    <img src="" alt="" class="places__image">
+    <div>
+      <p class="places__paragraph"></p>
+      <p class="places__paragraph"></p>
+    </div>
+</article>

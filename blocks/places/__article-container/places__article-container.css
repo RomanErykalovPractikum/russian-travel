@@ -1,5 +1,29 @@
 .places__article-container {
+  margin: 0 0 80px;
   display: grid;
-  grid-template: 1fr 460px/ 460px 1fr;
+  grid-template: 1fr min-content / min-content 1fr;
   gap: 48px 40px;
+}
+
+.places__article-container:last-child {
+  margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .places__article-container {
+    gap: 48px 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places__article-container {
+    gap: 48px 28px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .places__article-container {
+    grid-template: min-content min-content min-content min-content / 1fr;
+    gap: 32px;
+  }
 }
