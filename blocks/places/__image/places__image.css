@@ -1,6 +1,6 @@
 .places__image {
-  height: 480px;
-  width: 480px;
+  height: 460px;
+  width: 460px;
 }
 
 @media screen and (max-width: 1024px) {

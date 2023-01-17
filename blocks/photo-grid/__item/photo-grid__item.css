@@ -1,4 +1,4 @@
-.photo-grid__item {
+/* .photo-grid__item {
   width: calc((100vw - (48px * 2) - (16px * 3)) / 4);
   max-width: 284px;
 }
@@ -23,4 +23,10 @@
     max-width: 288px;
   }
 }
+
+ */
+
+ .photo-grid__item {
+   width: 100%;
+ }
 

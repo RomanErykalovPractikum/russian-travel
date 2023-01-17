@@ -1,4 +1,4 @@
-.photo-grid {
+/* .photo-grid {
   margin: 0 auto;
   padding: 0 48px 92px;
   max-width: 1280px;
@@ -31,3 +31,13 @@
 }
 
 
+ */
+
+.photo-grid {
+  margin: 0 auto;
+  padding: 0 48px 92px;
+  max-width: 1280px;
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(4, 1fr);
+  gap: 16px;
+}
