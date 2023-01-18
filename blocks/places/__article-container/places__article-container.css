@@ -17,11 +17,19 @@
 
 @media screen and (max-width: 768px) {
   .places__article-container {
+    grid-template: 1fr min-content / 340px 1fr;
     gap: 48px 28px;
   }
 }
 
-@media screen and (max-width: 425px) {
+/* @media screen and (max-width: 426px) {
+  .places__article-container {
+    grid-template: min-content min-content min-content min-content / 1fr;
+    gap: 32px;
+  }
+} */
+
+@media screen and (max-width: 426px) {
   .places__article-container {
     grid-template: min-content min-content min-content min-content / 1fr;
     gap: 32px;

@@ -2,3 +2,13 @@
   display: flex;
   gap: 18px;
 }
+
+@media screen and (max-width: 426px) {
+  .footer__nav-container {
+    margin: 0 0 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+}
+

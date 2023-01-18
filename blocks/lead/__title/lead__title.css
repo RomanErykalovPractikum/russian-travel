@@ -9,11 +9,16 @@
   text-align: center;
   color: #FFFFFF;
 }
-/*
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 426px) {
   .lead__title {
-    margin: 0 0 16px 0;
-    font-size: calc(100vw / 768 * 96);
+    margin: 0 auto 16px auto;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
     line-height: 1.1;
+    text-align: center;
+    color: #FFFFFF;
   }
-} */
+}

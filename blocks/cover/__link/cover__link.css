@@ -20,3 +20,9 @@
     padding: 115px 0;
   }
 }
+
+@media screen and (max-width: 426px) {
+  .cover__link {
+    padding: 33px 0;
+  }
+}

@@ -16,11 +16,15 @@
   }
 }
 
-/* @media screen and (max-width: 768px) {
+@media screen and (max-width: 426px) {
   .lead__subtitle {
-    margin: 0 0 16px 0;
-    font-size: calc((100vw - 320px) * (30 - 16) / (768 - 320) + 16px);
+    margin: 0 auto 40px auto;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
     line-height: 1.25;
+    text-align: center;
+    color: #FFFFFF;
   }
 }
- */
