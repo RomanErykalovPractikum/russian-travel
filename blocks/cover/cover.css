@@ -1,14 +1,10 @@
 .cover {
   max-width: 1184px;
   margin: 0 auto;
-  box-sizing: border-box;
+  width: calc(100vw - 96px);
   display: block;
   background: url(../../images/cover-trains.jpg);
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
-  background-color: rgba(42, 44, 47, 0.8);
-}
-
-.cover:hover {
-  background-color: rgba(42, 44, 47, 0.3);
 }
