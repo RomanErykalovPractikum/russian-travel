@@ -9,11 +9,11 @@
   text-align: center;
   color: #FFFFFF;
 }
-
+/*
 @media screen and (max-width: 768px) {
   .lead__title {
     margin: 0 0 16px 0;
     font-size: calc(100vw / 768 * 96);
     line-height: 1.1;
   }
-}
+} */
